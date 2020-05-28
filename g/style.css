@@ -1,0 +1,29 @@
+@charset "utf-8";
+.contenido div:nth-child(odd){
+    background-color: #eee
+}
+.contenido div{
+    background-color: #ccc
+}
+@media screen and (max-width: 680px){
+
+.contenido {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-gap: 1em;
+}
+.ca{
+    grid-column: span 2;
+}
+.uno{
+    grid-column: span 2;
+}
+.dos{
+    grid-column: span 2;
+} 
+    .ca{
+        height: 40px;
+    }    
+}
